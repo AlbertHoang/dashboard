@@ -1,0 +1,22 @@
+mat-sidenav-container{
+    height: calc(205vh - 115vh);
+}
+
+mat-sidenav-content{
+    width: 200px;
+    background-color: cornflowerblue;
+}
+
+:host {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+mat-drawer {
+    width: 350px;
+}
+
+mat-drawer-container {
+    height: 100%;
+}
