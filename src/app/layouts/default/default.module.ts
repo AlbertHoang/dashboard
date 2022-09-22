@@ -10,6 +10,7 @@ import { SharedModule } from 'src/app/shared/shared.module';
 
 import { MatInputModule } from '@angular/material/input';
 import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatDividerModule } from '@angular/material/divider';
 
 
 @NgModule({
@@ -23,8 +24,8 @@ import { MatSidenavModule } from '@angular/material/sidenav';
     RouterModule,
     SharedModule,
     MatSidenavModule,
-
     MatInputModule,
+    MatDividerModule,
   ]
 })
 export class DefaultModule { }
